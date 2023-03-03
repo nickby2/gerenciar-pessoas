@@ -1,0 +1,18 @@
+package gerencia.pessoas.api.application;
+
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApiApplication.class, args);
+		Scanner sc = new Scanner(System.in);
+		
+		sc.close();
+	}
+
+}
